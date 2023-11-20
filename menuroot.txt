@@ -1,0 +1,144 @@
+1. In the B4J IDE, click the 'Designer' menu option.
+2. Click 'Open Internal Designer.
+3. Close the 'Form (WYSIWYG Designer)' if its open.
+4. Right click on the layout and click 'Add View'.
+5. Select 'Custom View'. This is the menu item that you will use to add the components defined below. Clicking an item will place the component in the layout.
+6. When adding components to the layout designer, you might need to resize them to fit or shrink. Usually the first item should be enlarged to fit the area where more components will be added.
+7. Now, let's start adding the components to the layout. To add each component, you will use 'Add View' > 'Custom View' and then select the component from the menu.
+8. NB: It's not compulsory to specify the 'ParentID' property. It has been added for very specific few cases.
+
+********** 1 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonContent'.
+Change the following properties for the 'SHIonContent.menuroot' component.
+Name -> menuroot
+Ion Page -> false
+
+********** 2 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonContent'.
+Drag & Drop this newly added component and place it inside the 'menuroot' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonContent.homepage' component.
+Name -> homepage
+ParentID -> menuroot
+Fullscreen -> true
+Ion Padding -> false
+Use Tag -> div
+
+********** 3 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonHeader'.
+Drag & Drop this newly added component and place it inside the 'homepage' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonHeader.homeheader' component.
+Name -> homeheader
+ParentID -> homepage
+
+********** 4 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonToolbar'.
+Drag & Drop this newly added component and place it inside the 'homeheader' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonToolbar.hometoolbar' component.
+Name -> hometoolbar
+ParentID -> homeheader
+
+********** 5 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonButtons'.
+Drag & Drop this newly added component and place it inside the 'hometoolbar' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonButtons.homeleftbuttons' component.
+Name -> homeleftbuttons
+ParentID -> hometoolbar
+Slot -> start
+
+********** 6 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonMenuButton'.
+Drag & Drop this newly added component and place it inside the 'homeleftbuttons' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonMenuButton.homemenubutton' component.
+Name -> homemenubutton
+ParentID -> homeleftbuttons
+Auto Hide -> false
+Menu -> menu1
+
+********** 7 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonTitle'.
+Drag & Drop this newly added component and place it inside the 'hometoolbar' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonTitle.hometitle' component.
+Name -> hometitle
+ParentID -> hometoolbar
+Text -> Menu
+
+********** 8 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonContent'.
+Drag & Drop this newly added component and place it inside the 'homepage' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonContent.homecontent' component.
+Name -> homecontent
+ParentID -> homepage
+Ion Page -> false
+
+********** 9 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonMenuToggle'.
+Drag & Drop this newly added component and place it inside the 'homecontent' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonMenuToggle.menutoggle1' component.
+Name -> menutoggle1
+ParentID -> homecontent
+Auto Hide -> false
+Menu -> menu1
+
+********** 10 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonButton'.
+Drag & Drop this newly added component and place it inside the 'menutoggle1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonButton.btnshowmenu' component.
+Name -> btnshowmenu
+ParentID -> menutoggle1
+Text -> Show Menu
+
+********** 11 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonMenu'.
+Drag & Drop this newly added component and place it inside the 'menuroot' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonMenu.menu1' component.
+Name -> menu1
+ParentID -> menuroot
+Content Id -> homepage
+Menu Id -> menu1
+
+********** 12 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonHeader'.
+Drag & Drop this newly added component and place it inside the 'menu1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonHeader.menu1header' component.
+Name -> menu1header
+ParentID -> menu1
+
+********** 13 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonToolbar'.
+Drag & Drop this newly added component and place it inside the 'menu1header' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonToolbar.menu1toolbar' component.
+Name -> menu1toolbar
+ParentID -> menu1header
+
+********** 14 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonTitle'.
+Drag & Drop this newly added component and place it inside the 'menu1toolbar' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonTitle.menu1title' component.
+Name -> menu1title
+ParentID -> menu1toolbar
+Text -> Menu Title
+
+********** 15 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonContent'.
+Drag & Drop this newly added component and place it inside the 'menu1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonContent.menu1content' component.
+Name -> menu1content
+ParentID -> menu1
+Ion Page -> false
+Text -> This is the menu content
+
