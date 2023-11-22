@@ -1,0 +1,90 @@
+1. In the B4J IDE, click the 'Designer' menu option.
+2. Click 'Open Internal Designer.
+3. Close the 'Form (WYSIWYG Designer)' if its open.
+4. Right click on the layout and click 'Add View'.
+5. Select 'Custom View'. This is the menu item that you will use to add the components defined below. Clicking an item will place the component in the layout.
+6. When adding components to the layout designer, you might need to resize them to fit or shrink. Usually the first item should be enlarged to fit the area where more components will be added.
+7. Now, let's start adding the components to the layout. To add each component, you will use 'Add View' > 'Custom View' and then select the component from the menu.
+8. NB: It's not compulsory to specify the 'ParentID' property. It has been added for very specific few cases.
+
+********** 1 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonContent'.
+Change the following properties for the 'SHIonContent.homegrid' component.
+Name -> homegrid
+
+********** 2 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonRow'.
+Drag & Drop this newly added component and place it inside the 'homegrid' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonRow.socialr1' component.
+Name -> socialr1
+Styles (JSON) -> border-width:1px;
+border-style:solid;
+border-color:black
+
+********** 3 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonCol'.
+Drag & Drop this newly added component and place it inside the 'socialr1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonCol.socialr1c1' component.
+Name -> socialr1c1
+Styles (JSON) -> border-width:1px;
+border-style:solid;
+border-color:black
+
+********** 4 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonButton'.
+Drag & Drop this newly added component and place it inside the 'socialr1c1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonButton.btnlikes' component.
+Name -> btnlikes
+Text -> 12 Likes
+Has Icon -> true
+Icon Name -> thumbs-up
+Fill -> clear
+Size -> small
+
+********** 5 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonCol'.
+Drag & Drop this newly added component and place it inside the 'socialr1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonCol.socialr1c2' component.
+Name -> socialr1c2
+Styles (JSON) -> border-width:1px;
+border-style:solid;
+border-color:black
+
+********** 6 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonButton'.
+Drag & Drop this newly added component and place it inside the 'socialr1c2' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonButton.btncomments' component.
+Name -> btncomments
+Text -> 4 Comments
+Has Icon -> true
+Icon Name -> chatbox-ellipses-outline
+Fill -> clear
+Size -> small
+
+********** 7 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonCol'.
+Drag & Drop this newly added component and place it inside the 'socialr1' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonCol.socialr1c3' component.
+Name -> socialr1c3
+Display -> flex
+Align Items (YAxis) -> ion-align-items-center
+Justify Content (XAxis) -> ion-justify-content-center
+Styles (JSON) -> border-width:1px;
+border-style:solid;
+border-color:black
+
+********** 8 **********
+
+Right click 'Add View', then 'Custom View', then click 'SHIonNote'.
+Drag & Drop this newly added component and place it inside the 'socialr1c3' component. Ensure it's placed INSIDE the edges of the parent component and resize it according to your needs.
+Change the following properties for the 'SHIonNote.socialnote' component.
+Name -> socialnote
+Text -> 11h ago
+
